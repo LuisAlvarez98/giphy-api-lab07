@@ -62,4 +62,5 @@ button.active {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  margin: 5px;
 }
