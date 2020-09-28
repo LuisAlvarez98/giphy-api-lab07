@@ -24,7 +24,9 @@ $(document).ready(function () {
     $("#elements").empty();
     e.preventDefault();
     let val = $("#element-input").val();
-    themes.push(val);
+    if (val !== "") {
+      themes.push(val);
+    }
     loadThemes();
   });
 
